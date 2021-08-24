@@ -1,0 +1,35 @@
+body {
+
+    background-color: rgb(152, 152, 243);
+} 
+h1 {
+
+    color: blue;
+
+}
+/* criando uma classe, uma classe permite editar itens dentro dela */
+.titulo-principal, p {
+/* O P fpo acrescentado depois para mostrar que podemos usar para varios elementos */
+    color: rgb(12, 52, 134);
+    font-size: 20px;
+    
+
+}
+
+/* Para buscar ID usamos a # */
+#titulo {
+
+    color: chartreuse;
+    font-size: 30px;
+
+}
+.card a {
+
+    font-size: 40px;
+
+}
+
+footer {
+
+    background-color: darkorchid;
+}
