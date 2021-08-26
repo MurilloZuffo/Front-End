@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@500&display=swap');
+
+body {
+
+    background-color: darkblue;
+}
+
+h1, h2, .review-score {
+
+    font-family: 'Oswald', sans-serif;
+    color: white
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    color: yellow;
+}
+.media-picture {
+    height: 400px;
+    background-image: url('https://a-static.besthdwallpaper.com/john-wick-3-filme-papel-de-parede-2880x1800-30273_8.jpg');
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.review-score {
+    padding: 20px;
+    background-color: rgb(3, 158, 68);
+}
+a {
+
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 167, 5);
+
+}
