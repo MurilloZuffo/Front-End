@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+.box {
+    
+    
+    background-image: url('http://www.osmais.com/wallpapers/201206/cubos-pretos-azuis-wallpaper-1280x720.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 720px;
+    width: 1280px;
+    padding: 100px; 
+    border: 10px solid rgba(204, 187, 187, 0.322);
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.text  {
+
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 40px;
+
+}
+
+button {
+
+    background-color: rgba(75, 103, 155, 0.671);
+    height: 100px;
+    width: 250px;
+    padding: 20px;
+    border:thick double blue;
+    border-radius: 15px ;
+    margin: 10px 700px 10px 400px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(162, 162, 240);
+    font-style: oblique;
+    
+    
+}
+
+button:hover {
+
+    transform: scale(1.08);
+    filter: brightness(120%);
+
+    }
