@@ -1,0 +1,53 @@
+* {
+
+    margin: 0;
+    border: 0;
+}
+
+body {
+
+    height: 4000px;
+}
+
+.box {
+
+    width: 250px;
+    height: 250px;
+    margin-bottom: 12px;
+    
+   
+}
+
+.boxFirst {
+
+    background-color: aqua;
+    position: relative;
+    /* top: 200px; */
+    left: 50px;
+
+}
+
+.boxSecond {
+
+    background-color: bisque;
+    position:absolute;
+    /* absolute flutua a caixa  */
+    right:50px 
+
+}
+
+.boxThird {
+
+    background-color: chartreuse;
+    position: fixed;
+    Top:0;
+    /* fixa na tela  */
+    left: calc(50% - 250px /2 );
+
+}
+
+.boxFourth {
+
+    background-color: tomato;
+
+}

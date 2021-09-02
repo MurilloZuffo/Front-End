@@ -1,0 +1,64 @@
+* {
+
+    margin: 0;
+    border: 0;
+}
+
+body {
+
+    height: 4000px;
+}
+
+.box {
+
+    width: 250px;
+    height: 250px;
+    margin-bottom: 12px;
+    
+   
+}
+
+.boxFirst {
+
+    background-color: aqua;
+    position: relative;
+    /* top: 200px; */
+    left: 0;
+
+}
+
+.boxSecond {
+
+    background-color: bisque;
+    position:absolute;
+    /* absolute flutua a caixa  */
+    top:0;
+    right:0;    
+    
+
+}
+
+.boxThird {
+
+    background-color: chartreuse;
+    position: fixed;
+    bottom:0;
+    /* fixa na tela  */
+    left: calc(50% - 250px /2) ;  
+}
+
+.boxInside {
+
+    background-color: white;
+    position: relative;
+    height: 125px;
+    width: 125px;
+    padding: 20px;
+    margin: 2px;
+    text-align: center;
+    top: calc(50% - 125px /2);
+    left: calc(50% - 125px /2);
+    box-sizing: border-box
+
+
+}
