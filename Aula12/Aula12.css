@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+    /* box-sizing: border-box; */
+
+}
+body {
+    background-color:rgb(77, 77, 77);
+    height: 1500px ;
+
+}
+ header{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 30; 
+}
+header .logo{
+    background-image: url("https://images.pexels.com/photos/1162361/pexels-photo-1162361.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-color: blue;
+    background-size: 100% 100%;
+    height: 100px;
+    width: 200px;
+    position: relative;
+    left: 90px; 
+    top: 10px;
+} 
+
+header .store{
+
+    position: absolute;
+    color: ivory;
+    top: 30px;
+    left: calc(50% - 25%/2)
+}
+.headbutton {
+
+    position: relative;
+    left: calc(50% - 25%/2);
+    padding: 10px;
+
+}
+
+.banner {
+
+    background-color: chartreuse;
+    background-image:url("imagens/banner.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    position:relative;
+    height: 300px;
+    width: 90%;  
+    top: 150px;
+    left:calc(50% - 90%/2);
+    
+
+}
+
+.quadro1 {
+
+        position: relative;
+        top: 200px;
+        background-color: rgb(92, 92, 92);
+        width: 90%;
+        display: flex;
+        flex-wrap:wrap ;
+        justify-content:center;
+        margin: 0 auto;
+        gap: 5px;
+        z-index: 20;
+}
+.produtos {
+
+   
+    position:relative;
+    width: 200px; 
+    height: 200px;
+    margin: 24px;
+    padding: 40px 12px;
+    cursor: pointer;
+    z-index: 30; 
+    text-align: justify;
+
+}
+.foto {
+
+    height: 250px;
+    width: 250px;
+    
+
+
+}
+.Produtos h1 {
+    padding: 20px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+footer {
+    color: cornsilk;
+    text-align: center;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+    margin: auto;
+    z-index: 10; 
+    padding: auto;
+    left: calc(50% - 90%/2)
+    /* height: 50px; */
+
+} 
