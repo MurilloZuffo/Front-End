@@ -1,0 +1,44 @@
+img {
+
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    text-align: center;
+    border-style:inset;
+    
+}
+
+form{
+
+    padding: auto;
+    text-align: center;
+    background-color: cornsilk;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 2px;
+    border-style: inset;
+    
+
+
+
+}
+
+label{
+
+    display: block;
+
+}
+input, textarea, select{
+
+    border-radius: 2px;
+    border-color: darkblue;
+    border-width: 2px;
+  
+    
+}
+
+body{
+
+    background-color: black;
+}
