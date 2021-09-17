@@ -1,0 +1,91 @@
+@keyframes anima {
+
+    0%{
+        background-color: aquamarine;
+        transform: translateX(40px) translateY(40px);
+
+    }
+    50%{
+        background-color: blueviolet;
+        transform: translateX(80px) translateY(60px);
+    }
+    100%{
+
+        background-color: blue;
+        transform: translateX(120px) translateY(40px);
+    }
+
+}
+
+.animacao{
+    border: none;
+    padding: 24px 84px;
+    animation-name: anima;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-top: 200px;
+}
+
+.b1 {
+    border: none;
+    padding: 12px 42px;
+
+    transition-duration: 5s;
+    /* transition-property: background-color; */
+    /* transition-property: seleciona apenas uma propriedade */
+    /* transition-delay: 0.5s; */
+    transition-timing-function:ease-in-out;
+    /* controle de variação ease-in faz ele começar de vagar */
+}
+
+.b2 {
+    border: none;
+    padding: 12px 42px;
+    transition: 5s .5s ease-in-out;
+}
+.b1:hover {
+
+    background-color: aqua;
+    padding: 24px 84px;
+  
+}
+
+.b2:hover  {
+
+    background-color: aqua;
+    padding: 24px 84px;
+
+    transform: rotate(360deg) scale(2) skew(90deg) translate(40px, 40px);
+    /* transform: rotate(360deg); */
+    /* transform: scale(2); */
+    /* transform: skew(90deg); */
+    /* transform: translate(40px, 40px); */
+}
+
+@keyframes paragrafo {
+
+    0%{
+
+        opacity: 0;
+
+    }
+
+    50%{
+
+        opacity: 0.5;
+    }
+
+    100%{
+
+        opacity: 1;
+
+    }
+
+}
+
+p {
+
+    animation-name: paragrafo;
+    animation-duration: 3s;
+}
