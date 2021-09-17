@@ -1,0 +1,51 @@
+
+
+body{
+
+    background-color: gray;
+}
+
+main{
+
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-content: center;
+    justify-content: center;
+}
+
+img{
+
+    width: 150px;
+    height: 150px;
+    position: center;
+    margin: 10px;
+    text-align: center;
+}
+section{
+
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin: 10px;
+}
+
+main section:nth-child(odd){
+
+    background-color: aquamarine;
+
+}
+
+main section:nth-child(even){
+
+    background-color: blue;
+
+}
+
+/* main section:nth-child(2) {
+
+    background-color: blueviolet;
+
+} */
