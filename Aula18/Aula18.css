@@ -1,0 +1,65 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas:
+    'batata batata'
+    'aside main'
+    'footer footer';
+}
+
+body header{
+
+    background-color: aqua;
+    grid-area: batata;
+}
+
+body aside{
+
+    background-color: blue;
+    grid-area: aside;
+    height:400px;
+
+}
+
+body main{
+
+    background-color: brown;
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+    gap:12px;
+    padding: 20px;
+}
+
+body main #rara{
+
+    background-color: rgb(20, 220, 47);
+    height: 200px;
+    width: 300px;
+
+
+}
+
+body main section{
+
+    background-color: rgb(33, 20, 220);
+    height: 200px;
+    width: 300px;
+
+
+}
+
+body footer{
+
+    background-color: cornflowerblue;
+    grid-area: footer;
+}

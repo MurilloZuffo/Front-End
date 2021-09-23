@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@700&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+
+    display:grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas:
+    'logo    logo'
+    'aside   conteudo'
+    'fim     fim'  ;
+
+}
+
+
+body header img{
+
+    height: 100px;
+    width: 200px;
+    display: block;
+    justify-content:center;
+    margin: 0 auto;
+    
+
+}
+
+body header{
+
+    grid-area: logo;
+    background-color: #ffffff;
+
+}
+
+body aside{
+
+    grid-area: aside;
+    /* height:200px; */
+    background-color: #053742;
+    
+}
+
+body aside a{
+
+    display:block;
+    margin:10px;
+    padding: 10px;
+    font-family: 'Scheherazade New', serif;
+    color:#E8F0F2;
+    text-decoration: none;
+}
+
+body main{
+
+    grid-area: conteudo;
+    /* display:flex; */
+    background-color: #39A2DB;
+   
+
+}
+body main img{
+
+    height: 600px;
+    width: 1000px;
+    padding: 50px;
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+
+}
+body main h1,p{
+
+    display:block;
+    font-family: 'Scheherazade New', serif;
+    color:#053742;
+    justify-content: center;
+    padding: 30px;
+    margin: 0 auto;
+}
+body footer{
+    background-color: #A2DBFA;
+    font-family: 'Scheherazade New', serif;
+    grid-area: fim;
+    text-align: center;
+}
