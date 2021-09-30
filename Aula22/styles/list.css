@@ -1,0 +1,16 @@
+ul {
+  background-color: blue;
+}
+
+ul:hover {
+  background-color: yellow;
+}
+
+ul li {
+  color: white;
+}
+
+ul li.current-active {
+  background-color: rosybrown;
+}
+/*# sourceMappingURL=list.css.map */

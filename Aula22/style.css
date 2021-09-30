@@ -1,0 +1,20 @@
+ul {
+  background-color: blue;
+}
+
+ul:hover {
+  background-color: yellow;
+}
+
+ul li {
+  color: white;
+}
+
+ul li.current-active {
+  background-color: rosybrown;
+}
+
+h1 {
+  color: #0d8a37;
+}
+/*# sourceMappingURL=style.css.map */

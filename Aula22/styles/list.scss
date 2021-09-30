@@ -1,0 +1,22 @@
+ul{
+
+    background-color: blue;
+
+
+    &:hover{
+
+        background-color: yellow;
+    }
+
+ li{
+
+    
+    color:white;
+
+    &.current-active{
+
+        background-color: rosybrown;
+    }
+    
+}
+}
