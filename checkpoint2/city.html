@@ -14,11 +14,11 @@
         
         <div>
 
-            <a href="#historia">Araçariguama</a>
-            <a href="#">Instuticional</a>
-            <a href="#">Instuticional</a>
-            <a href="#">Instuticional</a>
-            
+            <a href="#Araça">Araçariguama</a>
+            <a href="#historia">Historia</a>
+            <a href="#contato">Contato</a>
+            <a href="#sobre">Sobre</a>
+
         </div>
 
     </header>
@@ -32,7 +32,7 @@
         
         <h1>Araçariguama</h1>
 
-        <h2 id="historia">Historia</h2>
+        <h2 id="Araça">Historia</h2>
         <p>Em 1590, o mameluco Affonso Sardinha, conhecido como Capitão-Mor de São Paulo de Piratininga registra ter <strong>encontrado ouro de lavagem nas proximidades do Morro do Vuturuna</strong> , sendo este o marco histórico da formação de Araçariguama. Em 04 de Dezembro de 1605 Affonso Sardinha ergueu uma capela aos devotos de Santa Bárbara (sendo ela a protetora dos mineiros e dos militares) ao pé do Morro do Vuturuna; nos arredores do local hoje conhecido como Morro do Cantagalo, onde se descobriu um vasto veio aurífero em Araçariguama.</p>
         <p>Em 1934 através de Decreto Presidencial, <strong> Presidente da República Getúlio Vargas decide lacrar a Mina do Ouro de Araçariguama</strong>, por desvio de minérios, sendo que neste mesmo ano por decreto Estadual Araçariguama foi reduzida à condição de Distrito de Paz de São Roque.
 
@@ -56,35 +56,35 @@
               
 
     </aside>
-    <main>
+    <main id="historia">
 
         <iframe width="800" height="400" src="https://www.youtube.com/embed/PdT3-97WCKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </main>
-    <div class="formulario">
+    <div class="formulario" id="contato">
 
         <h2>Agende uma visita</h2>
 
         <label for="name">Nome</label>
-        <input required placeholder = "Seu Nome" type="text" id="name">
+        <input required placeholder = "Seu Nome" type="text" id="name"><br>
         
         <input type="radio" name="idade" id="idade18">      
         <label for="idade">Maior de 18 anos</label>
         <input type="radio" name="idade" id="idade-18">  
-        <label for="idade">Menor de 18 anos</label>
+        <label for="idade">Menor de 18 anos</label><br>
             
         
         <label for="name">Endereço</label>
-        <input required placeholder = "endereço" type="text" id="endereço">
+        <input required placeholder = "endereço" type="text" id="endereço"><br>
                 
         <label for="mail">Email</label>
-        <input maxlength="15" placeholder = "email" type="email" id="mail">
+        <input maxlength="15" placeholder = "email" type="email" id="mail"><br>
         
         <label for="nasc">Data de Nascimento</label>
-        <input type="date" id="nasc">
+        <input type="date" id="nasc"><br>
         
         <label for="cel">Telefone</label>
-        <input type="tel"  maxlength="10"   id="cel" >
+        <input type="tel"  maxlength="10"   id="cel" ><br>
         
         
         <label for="turisticos">Turismo</label>
@@ -106,12 +106,22 @@
         <label for="objetivoTrabalho">Trabalho</label>
         <input type="checkbox" name="passeio" id="objetivoTrabalho">
         <label for="objetivoResidencia">Residencia</label>
-        <input type="checkbox" name="passeio" id="objetivoResidencia">
+        <input type="checkbox" name="passeio" id="objetivoResidencia"><br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Resetar</button>
         
       
 
     </div>
-    <footer></footer>
+    <footer id="sobre"></footer>
+
+    <div class=sobre> 
+
+        <a href="https://www.aracariguama.sp.gov.br/"><img width="100px" src="https://www.aracariguama.sp.gov.br/img/logo_compartilhar.jpg" alt="link" </a>
+
+
+    </div>
 
 </body>
 </html>
