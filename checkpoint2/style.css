@@ -133,12 +133,20 @@ div.formulario {
 }
 
 footer {
-  height: 30px;
+  height: 40px;
   -ms-grid-row: 7;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: footer;
   background-color: #000000;
+  color: #F0A500;
+  text-align: center;
+}
+
+footer div {
+  position: relative;
+  padding: 5px;
+  margin: 5px;
 }
 
 .sobre {

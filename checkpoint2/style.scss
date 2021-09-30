@@ -116,9 +116,21 @@ div.formulario {
 	background-color:#334756;
 }
 footer {
-	height: 30px;
+	height: 40px;
 	grid-area: footer;
 	background-color: #000000;
+    color:#F0A500;
+    text-align: center;
+   
+    div{
+        
+        position: relative;
+        padding: 5px;
+        margin: 5px;
+        
+    }
+    
+    
 }
 
 .sobre{
