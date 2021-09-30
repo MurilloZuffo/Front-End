@@ -1,0 +1,58 @@
+:root{
+
+    --cor: #00ffff;
+}
+*{
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+
+    scroll-behavior: smooth;
+
+}
+
+header{
+
+    position:sticky;
+    margin-top: 0;
+    height: 48px;
+    background-color: var(--cor);
+    
+}
+
+#Historia{
+
+   display: flex;
+
+}
+#sct1{
+
+    grid-area: section1;
+    background-color: yellowgreen;
+    width: 50%;
+}
+
+#sct2{
+
+    grid-area: section2;
+    background-color: whitesmoke;
+    width: 50%;
+}
+
+main .banner {
+
+    grid-area: div;
+    height: calc(100vh - 48px);
+    background-color:yellow;
+}
+
+footer{
+
+    height: 48px;
+    background-color: var(--cor);
+}
