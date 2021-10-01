@@ -62,13 +62,14 @@ h1, h2 ,h3 {
     
 }
 
-p , ol{
+p , ul{
     font-family: 'Roboto', sans-serif;
     color: rgb(0, 0, 15);
     text-align: justify;
     background-color: rgba(248, 248, 248, 0.308);
     padding: 5px;
     margin: 5px 10px;
+    list-style: none;
     
 }
 
